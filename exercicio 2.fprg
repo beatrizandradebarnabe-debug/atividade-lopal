@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="exercicio 2"/>
+        <attribute name="authors" value="I1D46B"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-18 03:02:10 "/>
+        <attribute name="created" value="STFENDZCO0VDRlA1MDdEMTI2MzYwMTsyMDI2LTAzLTE4OyIwMjo1MDo1MCAiOzI0MTY="/>
+        <attribute name="edited" value="STFENDZCO0VDRlA1MDdEMTI2MzYwMTsyMDI2LTAzLTE4OyIwMzowMjoxMCAiOzE7MjUxOA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A" type="Integer" array="False" size=""/>
+            <input variable="A"/>
+            <declare name="B" type="Integer" array="False" size=""/>
+            <input variable="B"/>
+            <declare name="C" type="Integer" array="False" size=""/>
+            <assign variable="C" expression="A+B"/>
+            <output expression="&quot;O resultado da soma &#233; &quot; &amp; C" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
